@@ -1,0 +1,25 @@
+* A Chuck class for TUIO communication
+
+* Introduction
+
+A sender/receiver of TUIO messages for the [[http://chuck.cs.princeton.edu/][ChucK]] programming language.
+
+*It's a pre-release and not ready-to-use yet.*
+
+* Prerequisites
+
+- [[http://chuck.cs.princeton.edu/][ChucK]]
+- A TUIO interface (if you don't have any physical one, you can use the [[http://prdownloads.sourceforge.net/reactivision/TUIO_Simulator-1.4.zip?download][TUIO Simulator]])
+
+* Installation
+
+Download the source from the repository:
+
+#+begin_src sh
+$ git clone git://github.com/automata/chuck-tuio.git
+#+end_src
+
+* Using
+
+Load *tuio.ck* at /ChucK/ first and then *tuio-test.ck*. 
+
